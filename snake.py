@@ -2,6 +2,7 @@ from turtle import Turtle
 
 INITIAL_POSITIONS = [(0,0), (-20, 0), (-40, 0)]
 STEPS = 20
+
 class Snake:
     def __init__(self):
         self.segments = []
