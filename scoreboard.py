@@ -20,3 +20,7 @@ class ScoreBoard(Turtle):
         self.score += 1
         self.clear()
         self.screen_score()
+
+    def end_game(self):
+        self.goto(0,0)
+        self.write("GANE OVER 😥", align=ALIGNMENT, font=FONT)
